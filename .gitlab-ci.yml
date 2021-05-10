@@ -1,0 +1,15 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  image: node:10.13
+  environment:
+    name: production
+    url: https://your.website.com
+  only:
+    - master
+  script:
+    - npm i
+    - npm run build
+    - npx netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod

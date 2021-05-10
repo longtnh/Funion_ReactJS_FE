@@ -1,0 +1,1 @@
+export const LOAD_STREAM_SUCCESS = 'pages/Home/LOAD_STREAM_SUCCESS'

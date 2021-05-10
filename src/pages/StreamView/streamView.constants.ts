@@ -1,0 +1,7 @@
+export const GET_STREAM_VIEW_SUCCESS = 'pages/StreamView/LOAD_STREAM_VIEW_SUCCESS'
+export const GET_CHATS_SUCCESS = 'pages/StreamView/GET_CHATS_SUCCESS'
+export const TOGGLE_CHAT_BOX = 'pages/StreamView/TOGGLE_CHAT_BOX'
+export const FOLLOW_SUCCESS = 'pages/StreamView/FOLLOW_SUCCESS'
+export const UN_FOLLOW_SUCCESS = 'pages/StreamView/UN_FOLLOW_SUCCESS'
+export const LOAD_PAYMENT_SUCCESS = 'pages/StreamView/LOAD_PAYMENT_SUCCESS'
+export const DONATE = 'pages/StreamView/DONATE'

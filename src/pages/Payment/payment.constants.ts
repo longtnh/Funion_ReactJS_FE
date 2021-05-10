@@ -1,0 +1,2 @@
+export const LOAD_PAYMENT_SUCCESS = 'pages/Payment/LOAD_PAYMENT_SUCCESS'
+export const ADD_PAYMENT_MOMO_SUCCESS = 'pages/Payment/ADD_PAYMENT_MOMO_SUCCESS'
